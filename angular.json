@@ -23,10 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/public/css/bootstrap.min.css"
+              "src/public/css/bootstrap.min.css",
+              "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/public/js/jquery.min.js",
+              "src/public/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
