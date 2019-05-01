@@ -1,15 +1,16 @@
-/* módulos carregados nativamente pelo angular */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-/* módulos carregados nativamente pelo angular */
 @NgModule({
   declarations: [
-    /*AppCompone*/
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
