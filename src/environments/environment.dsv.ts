@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  apiAlbum: 'https://api.dsv.album.phmiranda.com.br',
-  apiKeycloak: 'https://api.dsv.rhsso.phmiranda.com.br',
+  apiAlbum: 'https://api.dsv.album.dominio.com.br',
+  apiKeycloak: 'https://api.dsv.rhsso.dominio.com.br',
 };
